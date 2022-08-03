@@ -9,23 +9,25 @@ public class PersonValoare {
         Person myPerson2 = new Person();
         Person myPerson3 = new Person();
 
-        myPerson1.setId(555);
+        //myPerson1.setId(myPerson1.c);
         myPerson1.setFirstName("Paul");
         myPerson1.setLastName("Gutu");
 
-        myPerson2.setId(myPerson2.getId());
+        //myPerson2.setId(myPerson2.c);
         myPerson2.setFirstName("Natalia");
         myPerson2.setLastName("Gutu");
 
-        myPerson3.setId(myPerson3.getId());
+        //myPerson3.setId(myPerson3.c);
         myPerson3.setFirstName("Vladimir");
         myPerson3.setLastName("Gutu");
 
 
 /*
-        System.out.println(myPerson.getId());
-        System.out.println(myPerson.getFirstName());
-        System.out.println(myPerson.getLastName());
+        System.out.println(myPerson1.getId());
+        System.out.println(myPerson2.getId());
+        System.out.println(myPerson3.getId());
+        System.out.println(myPerson1.getFirstName());
+        System.out.println(myPerson1.getLastName());
 */
 
         myPerson1.printDetails();
