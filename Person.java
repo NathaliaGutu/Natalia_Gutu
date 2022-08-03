@@ -1,14 +1,17 @@
 package Persoana;
 
 public class Person {
-    static long id;
+    private long id;
     private String firstName;
     private String lastName;
 
-    public Person(){
+    public static int c=555;
 
-        id++;
+    public Person(){
+        c++;
+        id=c;
     }
+
      public long getId (){
          return id;
      }
